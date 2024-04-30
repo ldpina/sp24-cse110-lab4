@@ -1,4 +1,4 @@
-1. 3, because it returns the value of i where the for loop ended.
+1. <br> 3, because it returns the value of i where the for loop ended.
 2. 150, because it will return the last value of the 'prices' variable and its applied discount, so the person would get -$150 off the oringal purchase.
 3. 150, because it will return the final price of the last value of 'prices' so 300-150 = 150.
 4. [ 50, 100, 150 ],This will return an array of all items in 'prices' with the discount provided applied to them.
