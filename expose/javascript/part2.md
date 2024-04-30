@@ -33,6 +33,6 @@
   f. true, This is true because since were utlizing the '===' here when they are being compared to one another they are looking at the specific type here so since they are both booleans it equates to true. <br> 
 <br> 15. <br> For '==' symbol this can allow many different things for example if given '2' == 2 it would equate to true because when using this operand it changes the string to an integer and allows these two values to be compared to one another. When utilzing '===' this operand is more strict since it makes sure that to two data types are of the same datatype from there can be compared to one another to equate to the proper boolean evaulation.  <br>
 
-<br> 17. <br> The function returns [2,4,6]. I got this because when tracing through the code. Lines 2-3 are first gone after the function call of *modifyArray*.  <br>
+<br> 17. <br> The function returns [2,4,6]. I got this because when tracing through the code. Lines 2-3 are first lines to be execeuted after the function call of *modifyArray*. Once that occurs when getting to line 4 this line utilizes "callback" which allows for a function be called within another function. So when callback(array[i]) gets executed it calls the doSomething(num) function intialized in line 9 to be called with the parameter being the array provided to the modifyArray function. Once the doSomething function returns a value it is then pushed to the newArr array. This process occurs up until the for loops stops iterating.  <br>
 
-<br> 19. <br> 1 4 3 2 (in their respective own lines. <br>
+<br> 19. <br> 1 4 3 2 (in their respective own lines). <br>
