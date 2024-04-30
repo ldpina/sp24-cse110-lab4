@@ -24,15 +24,15 @@
   f. 0, <br> 
   g. '3undefined', <br> 
   h. NaN <br> 
-14. <br> 
+<br> 14. <br> 
   a. true, <br> 
   b. false, js goes in lexiographical order so since it sees that the first number in '12' is 1 it determines that it is lower than 2 and should come before '2'. <br> 
   c. true <br> 
   d. false <br> 
   e. false <br> 
   f. true <br> 
-15. <br> hello  <br>
-16. <br> hello  <br>
-17. <br> hello  <br>
-18. <br> hello <br>
-19. <br> hello <br>
+<br> 15. <br> hello  <br>
+<br> 16. <br> hello  <br>
+<br> 17. <br> hello  <br>
+<br> 18. <br> hello <br>
+<br> 19. <br> hello <br>
