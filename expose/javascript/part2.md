@@ -16,23 +16,23 @@
   d. student['Favorite Teacher'].name <br> 
   e. student.courseLoad[0] <br> 
 13. <br> 
-  a. <br>  '32', This happens because the '+' symbol assumes we are trying to add 2 to ur string so it absorbs the number into the string
-  b. 1, <br> 
-  c. 3, <br> 
-  d. '3null', <br> 
-  e. 4, <br> 
-  f. 0, <br> 
-  g. '3undefined', <br> 
-  h. NaN <br> 
+  a. <br>  '32', This happens because the '+' symbol assumes we are trying to add 2 to ur string so it absorbs the number into the string <br>
+  b. 1, This happens because the '-' symbol converts 3 to number so then it performs the operation 3-2.<br> 
+  c. 3, This happens because null is essentially treated as 0 so its 3 + 0<br> 
+  d. '3null', This happens because the '+' symbol is like concate so it converts null into a string and therefore adds it to the end of 3. <br> 
+  e. 4, This happens because true has the value of 1 and when it is added together with integer 1 it comes out to 4<br> 
+  f. 0, False and null are both treated as 0s when being refered to integer numbers so 0 + 0 is 0<br> 
+  g. '3undefined', This happens because undefined is turned into a string because of '+' converting it as it trying to attach it to the '3' string.<br> 
+  h. NaN, any arthemtic operations with the symbol "-" will make undefined change to NaN and with NaN in any of these operations will always result to NaN.<br> 
 <br> 14. <br> 
-  a. true, <br> 
+  a. true, When comparing strings and numbers together the string is turned into a number and therefore this expression was able to become true as 2 > 1. <br> 
   b. false, js goes in lexiographical order so since it sees that the first number in '12' is 1 it determines that it is lower than 2 and should come before '2'. <br> 
-  c. true <br> 
-  d. false <br> 
-  e. false <br> 
-  f. true <br> 
-<br> 15. <br> hello  <br>
-<br> 16. <br> hello  <br>
-<br> 17. <br> hello  <br>
-<br> 18. <br> hello <br>
-<br> 19. <br> hello <br>
+  c. true, This is true because alike a when doing comaprsions between strings and numbers, the strings turn into numbers and 2 = 2 is true <br> 
+  d. false, This is false because since it is utilizing the "===" which means that it has to be strictly the same so, since one is an integer and the other is a string they are not the same although their contents are the same and that. <br> 
+  e. false, This is because a boolean is converted to a number and true has the integer 1 assigned to it so 1 == 2 is false. <br> 
+  f. true, This is true because since were utlizing the '===' here when they are being compared to one another they are looking at the specific type here so since they are both booleans it equates to true. <br> 
+<br> 15. <br> For '==' symbol this can allow many different things for example if given '2' == 2 it would equate to true because when using this operand it changes the string to an integer and allows these two values to be compared to one another. When utilzing '===' this operand is more strict since it makes sure that to two data types are of the same datatype from there can be compared to one another to equate to the proper boolean evaulation.  <br>
+
+<br> 17. <br> The function returns [2,4,6]. I got this because when tracing through the code. Lines 2-3 are first gone after the function call of *modifyArray*.  <br>
+
+<br> 19. <br> 1 4 3 2 (in their respective own lines. <br>
